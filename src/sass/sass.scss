@@ -1,0 +1,32 @@
+
+body{
+  font-family: Arial;
+  font-size:18px;
+ 
+}
+
+/* TAB MENU */
+.services-tab__container {
+  width: 400px;
+  margin: 0 auto;
+}
+.services-tab__nav {
+  list-style: none;
+  padding: 0;
+}
+.services-tab__list-item {
+  display: inline-block;
+}
+.services-tab__link-item {
+  text-decoration: none;
+  display: block;
+  padding-right: 35px;
+}
+
+/* TAB ITEMS */
+.services-tab__tab-item {
+  display: none;
+}
+.services-tab__tab-item.is-visible {
+  display: block;
+}
